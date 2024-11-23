@@ -151,6 +151,112 @@ header {
     background: linear-gradient(to right, #eed390, #f8e8ab);
 }
 
+/* main  */
+/* section new creation */
+/* New Creations Section */
+.new-creation {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.create h1 {
+    font-size: 46px;
+    color: #45297c;
+    margin-bottom: 15px;
+}
+
+.create p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+    overflow-x: auto;
+    margin-top: 2rem;
+}
+/* backgroung img of cards */
+.imgCard {
+    background: url('./src/homepage/bg\ card.png') no-repeat center;
+    background-size: cover; /* Ensures the background fills the section */
+    padding: 50px 0;
+    position: relative;
+  }
+
+/* Individual Image Card */
+.imgCard {
+    position: relative; 
+    width: 300px;
+    height: 350px;
+    max-width: 320px;
+    background-color: #E4DAEC;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover Effect */
+.imgCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Tag Style */
+.tagstyle {
+    position: absolute; /* Positions tag in top-left corner */
+    top: 10px;
+    left: 10px;
+    background-color: #F1CD76;
+    color: #45297c;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Image Styling */
+.card-img img {
+    width: 90%;
+    height: 200px; 
+    object-fit: contain; 
+    
+}
+
+/* Product Name */
+.product-name {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Additional Text Box Styling */
+.text-box  h4{
+    color: white;
+    padding: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+
 
 /* Footer styles */
 footer {
