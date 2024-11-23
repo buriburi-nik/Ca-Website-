@@ -2,38 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=H=, initial-scale=1.0">
-    <title>Cadbury Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadbury - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <!-- home page -->
+        <!-- Background video -->
+        <video class="background-video" src="src/homepage/front_video.mp4" autoplay muted loop></video>
+        
+        <!-- Logo -->
+        <div class="content">
             <div class="logo">
-              <img src="src/200_Years_logo.png".png" alt="Cadbury Logo">
+                <img src="src/200_Years_logo.png" alt="Cadbury Logo">
             </div>
-            <nav>
-              <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#explore">Explore</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#recipes">Recipes</a></li>
-                <li><a href="#gifting">Gifting</a></li>
-                <li><a href="#cadbury_fc">Cadbury FC</a></li>
-              </ul>
+            
+            <!-- Nav -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">ABOUT </a></li>
+                    <li><a href="#explore">EXPLORE </a></li>
+                    <li><a href="#products">PRODUCTS </a></li>
+                    <li><a href="#recipes">RECIPES</a></li>
+                    <li><a href="#gifting">GIFTING</a></li>
+                    <li><a href="#cadbury_fc">CADBURY FC</a></li>
+                </ul>
             </nav>
+
             <div class="search">
                 <button class="search-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <circle cx="11" cy="11" r="8"></circle>
-                      <line x1="16" y1="16" x2="20" y2="20"></line>
-                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> class="search-icon" 
+                        <path d="M13.8024 12.8763L10.5299 9.60369C12.5688 7.05354 12.1542 3.33346 9.60398 1.29453C7.05364 -0.744331 3.33353 -0.329755 1.29453 2.22041C-0.744296 4.77056 -0.32981 8.49064 2.22045 10.5296C4.37893 12.2552 7.44507 12.2553 9.60355 10.5299L12.876 13.8022C13.1286 14.0613 13.5433 14.0665 13.8022 13.814C14.0613 13.5614 14.0665 13.1467 13.8139 12.8878C13.8101 12.8839 13.8062 12.88 13.8022 12.8761L13.8024 12.8763ZM1.34279 5.92897C1.34279 3.3968 3.39559 1.344 5.92792 1.344C8.46018 1.344 10.5131 3.39672 10.5131 5.92897C10.5131 8.46125 8.46026 10.5139 5.92792 10.5139C3.3969 10.5111 1.34569 8.45998 1.34279 5.92897Z" fill="white"/>
+                        </svg>
                     <span>Search</span>
                   </button>
             </div>
+        </div>
+
+        <!-- Hero Text and Button -->
+        <div class="hero-text">
+            <h1>Send Free Cadbury Chocolate Secretly</h1>
+            <p>
+                This year you can chat to Jeff, our Secret Santa postie. Just let him know where you'd like him to look, 
+                and he'll direct you to your nearest digital poster site where you can send chocolate from.
+            </p>
+            <a href="https://secretsanta.cadbury.co.uk/" class="hero-button" target="_blank">Find out more</a>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Cadbury. All rights reserved.</p>
+    </footer>
 </body>
 </html>
