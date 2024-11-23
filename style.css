@@ -259,9 +259,69 @@ header {
 
 
 /* Footer styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #4b0983;
-    color: white;
-}
+ /* Footer Styles */
+ .footer {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-top: 2px solid #4a1e8c;
+  }
+  
+  /* Top Section: Logo and Social Media */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer-logo img {
+    max-width: 400px;
+  }
+  
+  .footer-icon {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-icon a {
+    font-size: 30px;
+    color: #4a1e8c;
+    transition: color 0.3s;
+  }
+   
+  /* Bottom Section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom .copyright {
+    flex: 1;
+    color: #4a1e8c; 
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; 
+  }
+  
+  .footer-links a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #4a1e8c;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  
+  
