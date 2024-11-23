@@ -1,8 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
 body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
     }
 
 header {
@@ -97,11 +107,13 @@ header {
     left: 15%;
 }
 
-.hero-text h1 {
+.hero-text .heading {
     font-size: 72px;
     line-height: 90%;
     font-weight: bolder;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    /* padding-top: 3rem; */
     background: #F1CD76;
     background: linear-gradient(to right, #F1CD76 0%, #FDE7A8 50%, #D1A854 100%);
     -webkit-background-clip: text;
@@ -113,17 +125,17 @@ header {
 .hero-text p {
     font-size: 19px;
     line-height: 1.5;
-    margin-bottom: 19px;
+    margin-bottom: 2rem;
 }
 
 .hero-button {
     display: inline-block;
-    height: 30px;
-    width: 12rem;
+    height: 48px;
+    width: 14rem;
     background: linear-gradient(to right, #f8e8ab, #eed390);
     color: #45297c;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 10px 24px;
     font-size: 1.5 rem; /* Corrected font-size */
     font-weight: bold;
     border-radius: 40px;
@@ -140,3 +152,10 @@ header {
 }
 
 
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0983;
+    color: white;
+}
