@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Width Dropdown Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #4b0082;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            position: relative;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            position: relative;
+        }
+        .navbar .dropdown {
+            position: relative;
+        }
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #4b0082;
+            top: 100%;
+            left: 0;
+            width: 100vw; /* Full width */
+            z-index: 1000;
+            padding: 1rem 0; /* Add spacing for dropdown items */
+        }
+        .navbar .dropdown-content a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #fff;
+            white-space: nowrap;
+            text-align: left;
+        }
+        .navbar .dropdown-content a:hover {
+            background-color: #6a0dad;
+        }
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">About</a>
+            <div class="dropdown-content">
+                <a href="#">Our Story</a>
+                <a href="#">Timeline</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Explore</a>
+            <div class="dropdown-content">
+                <a href="#">Sustainability</a>
+                <a href="#">Cocoa Life</a>
+            </div>
+        </div>
+        <a href="#">Products</a>
+        <a href="#">Recipes</a>
+        <a href="#">Gifting</a>
+        <a href="#">Cadbury FC</a>
+    </nav>
+</body>
+</html>
