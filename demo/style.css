@@ -268,8 +268,17 @@ header {
 }
 
 @media (max-width: 480px) {
+  .content{
+    flex-direction:column;
+    padding: 10px;
+    justify-content: center;
+  }
     .hero-text .heading {
         font-size: 36px;
+    }
+
+    .logo{
+      left: 50%;
     }
 
     .hero-button {
