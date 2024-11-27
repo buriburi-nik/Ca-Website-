@@ -104,7 +104,7 @@ color: #fff;
 .navbar .dropdown-content a {
   display: block;
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: #ffcc00;
   white-space: nowrap;
   text-align: left;
 }
@@ -112,6 +112,8 @@ color: #fff;
 .dropdown:hover .dropdown-content {
   display: block;
   animation: fadeIn 0.5s ease 2s forwards;
+  color: #1886ed;
+
 }
 
 .dropdown::before {
@@ -268,8 +270,18 @@ color: #fff;
 }
 
 @media (max-width: 480px) {
+.content{
+  flex-direction:row;
+  padding: 10px;
+  justify-content: center;
+  gap: 150px;
+}
   .hero-text .heading {
       font-size: 36px;
+  }
+
+  .logo{
+    left: 50%;
   }
 
   .hero-button {
@@ -698,7 +710,7 @@ transition: transform 0.3s ease;
   #poster2 {
       height: 800px;
       width: 100%; 
-      background-image: url("https://images.ctfassets.net/pmzhtobns06n/48reV3BC8gq3vlLV5qHeZO/93366d92522246a259565a5dabfdbbc0/Mobile_UK_Landing_Page.jpg?q=80&fm=webp&q=80"); /* New background image */
+      background-image: url("./src/Mobile_UK_Landing_Page.webp");
       background-size: cover;
       background-position:bottom;
       align-items: flex-start; 
