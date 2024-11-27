@@ -235,7 +235,7 @@ color: #fff;
       flex-direction: row; 
       gap: 250px;
       justify-content:center;
-      padding: 10px 30px;  
+      padding: 30px 30px;  
   }
   
   .logo img {
@@ -275,6 +275,8 @@ color: #fff;
   padding: 10px;
   justify-content: center;
   gap: 150px;
+  padding: 10px 30px;  
+
 }
   .hero-text .heading {
       font-size: 36px;
